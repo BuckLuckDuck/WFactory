@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstFragmentIntro">
+    tools:context=".activity.intro.FirstFragment">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -31,7 +31,7 @@
         android:lines="2"
         android:maxLines="2"
         android:singleLine="false"
-        android:text="@string/intro1.1_text"
+        android:text="@string/intro11"
         android:textAlignment="center"
         android:textColor="#3C3A36"
         android:textSize="24sp"
@@ -48,7 +48,7 @@
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/rubik"
         android:lineHeight="21sp"
-        android:text="@string/intro1.2_text"
+        android:text="@string/intro12"
         android:textAlignment="center"
         android:textColor="#78746D"
         android:textSize="14sp"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThirdFragmentIntro">
+    tools:context=".activity.intro.ThirdFragment">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -31,7 +31,7 @@
         android:lines="2"
         android:maxLines="2"
         android:singleLine="false"
-        android:text="@string/intro3.1_text"
+        android:text="@string/intro31"
         android:textAlignment="center"
         android:textColor="#3C3A36"
         android:textSize="24sp"
@@ -41,21 +41,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="341dp"
-            android:layout_height="64dp"
-            android:layout_marginBottom="16dp"
-            android:fontFamily="@font/rubik"
-            android:lineHeight="21sp"
-            android:text="@string/intro1.2_text"
-            android:textAlignment="center"
-            android:textColor="#78746D"
-            android:textSize="14sp"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="341dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/rubik"
+        android:lineHeight="21sp"
+        android:text="@string/intro12"
+        android:textAlignment="center"
+        android:textColor="#78746D"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <LinearLayout
             android:id="@+id/linearLayout"

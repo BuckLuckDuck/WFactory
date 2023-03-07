@@ -1,10 +1,11 @@
-package com.example.worldfactory
+package com.example.worldfactory.activity.main
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.example.worldfactory.databinding.ActivityMainBinding
+import com.example.worldfactory.activity.intro.IntroActivity
 
 class MainActivity : AppCompatActivity() {
 
